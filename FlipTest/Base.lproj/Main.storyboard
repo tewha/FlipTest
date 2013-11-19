@@ -96,7 +96,21 @@
                     <view key="view" contentMode="scaleToFill" id="cOi-ei-lnP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FlipTest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5d-nv-fPK">
+                                <rect key="frame" x="20" y="80" width="280" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="s5d-nv-fPK" firstAttribute="leading" secondItem="cOi-ei-lnP" secondAttribute="leading" constant="20" symbolic="YES" id="MWw-mN-Wro"/>
+                            <constraint firstItem="s5d-nv-fPK" firstAttribute="top" secondItem="dI1-MD-RH6" secondAttribute="bottom" constant="16" id="duf-yc-wVJ"/>
+                            <constraint firstAttribute="trailing" secondItem="s5d-nv-fPK" secondAttribute="trailing" constant="20" symbolic="YES" id="pmw-wJ-1Ua"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="About" id="lp6-g6-Sln">
