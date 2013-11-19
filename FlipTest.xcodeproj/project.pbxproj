@@ -15,7 +15,6 @@
 		A71E7FD1183BF5BF0005038D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A71E7FD0183BF5BF0005038D /* AppDelegate.m */; };
 		A71E7FD4183BF5BF0005038D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71E7FD2183BF5BF0005038D /* Main.storyboard */; };
 		A71E7FD7183BF5BF0005038D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71E7FD6183BF5BF0005038D /* MasterViewController.m */; };
-		A71E7FDA183BF5BF0005038D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71E7FD9183BF5BF0005038D /* DetailViewController.m */; };
 		A71E7FDC183BF5BF0005038D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71E7FDB183BF5BF0005038D /* Images.xcassets */; };
 		A71E7FFA183BF5D80005038D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71E7FF9183BF5D80005038D /* AboutViewController.m */; };
 /* End PBXBuildFile section */
@@ -34,8 +33,6 @@
 		A71E7FD3183BF5BF0005038D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A71E7FD5183BF5BF0005038D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		A71E7FD6183BF5BF0005038D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		A71E7FD8183BF5BF0005038D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		A71E7FD9183BF5BF0005038D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		A71E7FDB183BF5BF0005038D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A71E7FE2183BF5BF0005038D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A71E7FEA183BF5BF0005038D /* FliptestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FliptestTests-Info.plist"; sourceTree = "<group>"; };
@@ -98,8 +95,6 @@
 				A71E7FD2183BF5BF0005038D /* Main.storyboard */,
 				A71E7FD5183BF5BF0005038D /* MasterViewController.h */,
 				A71E7FD6183BF5BF0005038D /* MasterViewController.m */,
-				A71E7FD8183BF5BF0005038D /* DetailViewController.h */,
-				A71E7FD9183BF5BF0005038D /* DetailViewController.m */,
 				A71E7FDB183BF5BF0005038D /* Images.xcassets */,
 				A71E7FC7183BF5BF0005038D /* Supporting Files */,
 			);
@@ -204,7 +199,6 @@
 				A71E7FFA183BF5D80005038D /* AboutViewController.m in Sources */,
 				A71E7FD7183BF5BF0005038D /* MasterViewController.m in Sources */,
 				A71E7FCD183BF5BF0005038D /* main.m in Sources */,
-				A71E7FDA183BF5BF0005038D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
